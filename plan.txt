@@ -5,6 +5,7 @@
 	Xojakbar Ezoza => Read more
 	Nurmuhammad Davlat => Form yasash admin panelga zayavka jo`natish
 
+						
 						17.03.2024
 	Diyorbek => Header, Footer, Modal, Fayllarni yig`ish
 	Shahrizoda Ezoza => Klient otziv
@@ -12,3 +13,12 @@
 	Komilbek Davlat => Card qism
 						
 	Barcha komanda a`zolari berilgan topshiriq bajarilgandan so`ng uyga ketadi
+
+
+
+
+	Admin panel 4 qismdan iborat buladi
+1. Login kirish
+2. Kvartira qushish
+3. klient zakazini qabul qilish
+4. Klient murojatini qabul qiladigan joy

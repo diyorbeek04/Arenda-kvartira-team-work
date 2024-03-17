@@ -1,0 +1,89 @@
+#logIn__Box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #logIn__Box--Title {
+        width: 50%;
+        height: 100%;
+        background-image: url(../../../assets/image/bgc3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        #logIn__Box--logo {
+            width: 20%;
+            background-color: #fff;
+            padding: 20px;
+            margin: 50px;
+            border-radius: 20px;
+            img {
+                width: 100%;
+            }
+        }
+        h1 {
+            padding-top: 8%;
+            text-align: center;
+            margin: 0px auto;
+            color: #fff;
+            font-size: 80px;
+            font-family: monospace;
+            font-weight: 1000;
+        }
+        h3 {
+            padding-top: 5%;
+            text-align: center;
+            margin: 0px auto;
+            color: #fff;
+            font-family: monospace;
+            font-size: 40px;
+        }
+        p{
+            width: 300px;
+            text-align: end;
+            padding: 50px;
+            padding-top: 100px;
+            color: #fff;
+            font-family: monospace;
+            font-size: 20px;
+            font-weight: 600;
+            margin: auto 0 auto auto;
+        }
+    }
+    #logIn__Box--form {
+        width: 50%;
+        height: 100%;
+        h1{
+            width: 100%;
+            padding-left: 50px;
+            padding-top: 250px;
+            font-family: monospace;
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+        form{
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .SignIn{
+                width: 80%;
+                padding: 20px;
+                color: #000;
+                outline: none;
+                border: 0px ; 
+                font-size: 20px;
+            }
+            hr{
+                width: 80%;
+                height: 4px;
+                margin-top: -40px;
+                background: rgb(82,58,180);
+                background: linear-gradient(90deg, rgba(82,58,180,1) 0%, rgba(3,21,252,1) 38%, rgba(0,14,252,1) 61%, rgba(78,186,255,1) 100%);
+            }
+
+        }
+    }
+}
+

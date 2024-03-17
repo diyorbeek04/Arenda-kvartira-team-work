@@ -1,3 +1,90 @@
+#logIn__Box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logIn__Box #logIn__Box--Title {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../../assets/image/bgc3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#logIn__Box #logIn__Box--Title #logIn__Box--logo {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+}
+#logIn__Box #logIn__Box--Title #logIn__Box--logo img {
+  width: 100%;
+}
+#logIn__Box #logIn__Box--Title h1 {
+  padding-top: 8%;
+  text-align: center;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 80px;
+  font-family: monospace;
+  font-weight: 1000;
+}
+#logIn__Box #logIn__Box--Title h3 {
+  padding-top: 5%;
+  text-align: center;
+  margin: 0px auto;
+  color: #fff;
+  font-family: monospace;
+  font-size: 40px;
+}
+#logIn__Box #logIn__Box--Title p {
+  width: 300px;
+  text-align: end;
+  padding: 50px;
+  padding-top: 100px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto 0 auto auto;
+}
+#logIn__Box #logIn__Box--form {
+  width: 50%;
+  height: 100%;
+}
+#logIn__Box #logIn__Box--form h1 {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 250px;
+  font-family: monospace;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+#logIn__Box #logIn__Box--form form {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#logIn__Box #logIn__Box--form form .SignIn {
+  width: 80%;
+  padding: 20px;
+  color: #000;
+  outline: none;
+  border: 0px;
+  font-size: 20px;
+}
+#logIn__Box #logIn__Box--form form hr {
+  width: 80%;
+  height: 4px;
+  margin-top: -40px;
+  background: rgb(82, 58, 180);
+  background: linear-gradient(90deg, rgb(82, 58, 180) 0%, rgb(3, 21, 252) 38%, rgb(0, 14, 252) 61%, rgb(78, 186, 255) 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
