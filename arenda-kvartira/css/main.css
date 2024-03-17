@@ -8,6 +8,7 @@
   font-size: 32px;
   font-weight: 600;
   color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
 }
 .container .main__companent {
   display: flex;
@@ -18,6 +19,7 @@
   font-weight: 500;
   font-size: 16px;
   width: 30%;
+  font-family: "Montserrat 500";
 }
 .container .main__companent .main__companent--item {
   display: flex;
@@ -31,6 +33,7 @@
   font-size: 18px;
   font-weight: 800;
   color: rgb(73, 131, 255);
+  font-family: "Montserrat 500";
 }
 .container .hr {
   width: 100%;
@@ -68,21 +71,25 @@
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Montserrat 500";
 }
 .card #card__item--p {
   font-weight: 500;
   color: rgb(36, 35, 35);
   font-size: 20px;
   margin-bottom: 25px;
+  font-family: "Montserrat 400";
 }
 .card #card__item--small {
   color: rgb(101, 119, 224);
   font-size: 20px;
   font-weight: 600;
+  font-family: "Montserrat 500";
 }
 .card #card__item--span {
   display: block;
   margin-top: 15px;
+  font-family: "Montserrat 400";
 }
 .card .card__item--bottom {
   display: flex;
@@ -102,6 +109,7 @@
   border-radius: 20px;
   border: none;
   outline: none;
+  font-family: "Montserrat 400";
 }
 
 .container {
@@ -112,8 +120,8 @@
 .container .hero__h1 {
   margin-top: 70px;
   font-size: 32px;
-  font-weight: 600;
   color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
 }
 .container .main__companent {
   display: flex;
@@ -122,8 +130,9 @@
 }
 .container .main__companent .main__companent--h4 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   width: 30%;
+  font-family: "Montserrat 500";
 }
 .container .main__companent .main__companent--item {
   display: flex;
@@ -137,6 +146,13 @@
   font-size: 18px;
   font-weight: 800;
   color: rgb(73, 131, 255);
+  font-family: "Montserrat 500";
+}
+.container .main__companent .main__companent--item .main__companent--item--card .main__companent--small {
+  font-weight: 500;
+  font-size: 18px;
+  width: 30%;
+  font-family: "Montserrat 500";
 }
 .container .hr {
   width: 100%;
@@ -156,7 +172,7 @@
 }
 
 .card1 {
-  width: 27%;
+  width: 30%;
   margin-bottom: 70px;
 }
 .card1 .card__item {
@@ -172,21 +188,25 @@
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: 600;
+  font-family: "Montserrat 500";
 }
 .card1 #card__item--p {
   font-weight: 500;
   color: rgb(36, 35, 35);
   font-size: 20px;
   margin-bottom: 25px;
+  font-family: "Montserrat 400";
 }
 .card1 #card__item--small {
   color: rgb(101, 119, 224);
   font-size: 20px;
   font-weight: 600;
+  font-family: "Montserrat 500";
 }
 .card1 #card__item--span {
   display: block;
   margin-top: 15px;
+  font-family: "Montserrat 400";
 }
 .card1 .card__item--bottom {
   display: flex;
@@ -206,8 +226,41 @@
   border-radius: 20px;
   border: none;
   outline: none;
+  font-family: "Montserrat 400";
 }
 
+@font-face {
+  font-family: "Montserrat 400";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 300";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Light.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 300";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Light.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 500";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Medium.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 600";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 100";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Thin.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 200";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 200";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format(woff);
+}
 * {
   margin: 0;
   padding: 0;
