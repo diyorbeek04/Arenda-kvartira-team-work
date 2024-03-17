@@ -2,25 +2,27 @@
 fetch('http://localhost:8000/flatBlog')
     .then(res => res.json())
     .then(data => Data(data))
-
 let dataSection = document.getElementById("cards")
+let button = document.getElementById("card__item--button")
 let Fragment = document.createDocumentFragment()
 let Data = (arr) => {
     arr.map(elem => {
-        let Clone = template.content.cloneNode(true)
-        Clone.getElementById('card__item--images').src = elem.cardImage
-        Clone.getElementById('card__item--h2').textContent = elem.cardTitle
-        Clone.getElementById('card__item--p').textContent = elem.cardDescription
-        Clone.getElementById('card__item--strong').textContent = elem.cardPrice
-        Clone.getElementById('card__item')
+        let Clone = templateFlat.content.cloneNode(true)
+        Clone.getElementById('card__item--images').src = elem.flatImage
+        Clone.getElementById('card__item--h2').textContent = elem.flatTitle
+        Clone.getElementById('card__item--p').textContent = elem.flatDescription
+        Clone.getElementById('card__item--small').textContent = elem.flatPrice
+        Clone.getElementById('card__item--img').src = elem.flatLocationImage
+        Clone.getElementById('card__item--span').textContent = elem.flatLocation
+        Clone.getElementById('card__item__button').textContent = elem.flatButton
+        Clone.getElementById('card__item__button').value = elem.id
+        Clone.getElementById('card__item__button').addEventListener('click' , (e) => {
+            e.preventDefault()
+            console.log(e.target.value);
+            window.localStorage.setItem('flatId', button.value)
+            window.location.href = 'all_flat.html'
+        })
         Fragment.appendChild(Clone)
     })
     dataSection.appendChild(Fragment)
 }
-
-
-
-
-//let Title = document.getElementById("companent__h2")
-//let Disc = document.getElementById("companent__p")
-//let Price = document.getElementById("companent__mark")

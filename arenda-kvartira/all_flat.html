@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <title>Аренда квартир 59</title>
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <h1 class="hero__h1">1-к квартира, 31 м², 1/5 эт.</h1>
+        <!-- cards -->
+        <div id="cards"></div>
+        <!-- main start -->
+        <h1 class="hero__h1">О нас</h1>
+        <div class="main__companent">
+            <h4 class="main__companent--h4">Сегодня «Домашняя гостиница» — одна из крупнейших в Пермском крае
+                гостиничных сетей, динамично расширяющая географический охват и повышающая качество сервиса.</h4>
+            <div class="main__companent--item">
+                <img src="/assets/images/deal 1.png" alt="">
+                <div class="main__companent--item--card">
+                    <p class="main__companent--p">40+</p>
+                    <small class="main__companent--small">Клиентов</small>
+                </div>
+            </div>
+            <div class="main__companent--item">
+                <img src="/assets/images/review 2.png" alt="">
+                <div class="main__companent--item--card">
+                    <p class="main__companent--p">100+</p>
+                    <small class="main__companent--small">Отзывов</small>
+                </div>
+            </div>
+            <div class="main__companent--item">
+                <img src="/assets/images/Group.png" alt="">
+                <div class="main__companent--item--card">
+                    <p class="main__companent--p">9</p>
+                    <small class="main__companent--small">Квартир</small>
+                </div>
+            </div>
+        </div>
+        <hr class="hr">
+        <!-- main end -->
+    </div>
+    <template id="templateFlat">
+        <div id="card" class="card">
+            <img class="card__item--images" id="card__item--images">
+            <div class="card__item" id="card__item">
+                <h2 id="card__item--h2"></h2>
+                <p id="card__item--p"></p>
+                <small id="card__item--small"></small>
+                <div class="card__item--bottom">
+                    <img class="card__item--images" id="card__item--img">
+                    <span id="card__item--span"></span>
+                </div>
+                <button id="card__item--button"></button>
+            </div>
+        </div>
+    </template>
+    <script src="./js/al_flat.js"></script>
 </body>
+
 </html>

@@ -1,14 +1,74 @@
 {
     "flatBlog" : [
-       
+        {
+            "id" : 1,
+            "flatImage" : "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+            "flatTitle" : "Однокомнатная квартира",
+            "flatDescription" : "СДАМ 1- ую квартиру улучшенной планировки с лоджией, есть всё необходимое спальные места кровать 2...", 
+            "flatPrice" : "1 200 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Юбилейная 108",
+            "flatButton" : "Подробнее"
+        },
         {
             "id" : 2,
-            "cardImage" : "https://my-dom.design/wp-content/uploads/2023/06/g4.jpg",
-            "cardTitle" : " Однокомнатная квартира",
-            "cardDescription" : "Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить смс не читаю", 
-            "cardPrice" : "1 200 ₽ за сутки ",
-            "cardLocation" : "Березники, ул. Юбилейная 108",
-            "cardButton" : "Забронировать"
+            "flatImage" : "https://s0.rbk.ru/v6_top_pics/media/img/5/60/756281458904605.jpg",
+            "flatTitle" : "Однокомнатная квартира",
+            "flatDescription" : "СДАМ 1 КВАРТИРУ есть все необходимое для проживания холодильник, мик.печь,ст.машина выписываем...", 
+            "flatPrice" : "1 000 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Юбилейная 108",
+            "flatButton" : "Подробнее"
+        },
+        {
+            "id" : 3,
+            "flatImage" : "https://img.rieltor.ua/crop/500x375/offers/882/82/2/1793231261565882.jpeg",
+            "flatTitle" : "Однокомнатная квартира",
+            "flatDescription" : "Сдам 1ую квартиру ул. пл. с балконом есть всё необходимое для проживания Выписываем документы строгой...", 
+            "flatPrice" : "1 200 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Юбилейная 108",
+            "flatButton" : "Подробнее"
+        },
+        {
+            "id" : 4,
+            "flatImage" : "https://frankfurt.apollo.olxcdn.com/v1/files/89zkkakbzmz9-UZ/image;s=1640x1232",
+            "flatTitle" : "Однокомнатная квартира",
+            "flatDescription" : "Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить...", 
+            "flatPrice" : "1 200 ₽ за сутки  ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Юбилейная 108",
+            "flatButton" : "Подробнее"
+        },
+        {
+            "id" : 5,
+            "flatImage" : "https://img.dmclk.ru/c960x640q80/vitrina/28/89/288920106b102388bdfcaf0036a0648c5f6a4055.jpg",
+            "flatTitle" : "Двухкомнатная квартира",
+            "flatDescription" : "СДАМ 2 КОМНАТНУЮ КВАРТИРУ есть балкон всё необходимое для комфортного проживания, холодильник, мик.печь...", 
+            "flatPrice" : "1 500 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Красноборова, 11",
+            "flatButton" : "Подробнее"
+        },
+        {
+            "id" : 6,
+            "flatImage" : "https://www.dizainvfoto.ru/wp-content/uploads/2018/07/gostinaya-zona.jpg",
+            "flatTitle" : "Трёхкомнатная квартира",
+            "flatDescription" : "СДАМ 3 КОМНАТНУЮ КВАРТИРУ гостям города , бригаде , есть всё необходимое для проживания до 7 ми спальных мест...", 
+            "flatPrice" : "1 800 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Свердлова, 134",
+            "flatButton" : "Подробнее"
+        },
+        {
+            "id" : 7,
+            "flatImage" : "https://images.cdn-cian.ru/images/2038771510-4.jpg",
+            "flatTitle" : "Трёхкомнатная квартира",
+            "flatDescription" : "СДАМ. 3 КОМНАТНУЮ КВАРТИРУ, для гостей города. в квартире имеется все необходимое для проживания на сутки...", 
+            "flatPrice" : "1 800 ₽ за сутки ",
+            "flatLocationImage" : "https://ourdeal.co.uk/wp-content/uploads/2023/04/How-to-Share-Location-on-iPhone.jpg",
+            "flatLocation" : "Березники, ул. Мира, 112",
+            "flatButton" : "Подробнее"
         }
     ]
 }
