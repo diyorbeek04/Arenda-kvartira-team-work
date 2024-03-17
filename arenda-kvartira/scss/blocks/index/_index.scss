@@ -1,0 +1,311 @@
+.rooms {
+
+
+
+    .rooms__h2 {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2B7AF1;
+        margin-left: 150px;
+    }
+
+    .rooms__ro {
+        width: 1260px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        right: -100px;
+
+    }
+
+    .section1 {
+        background-image: url(/assets/images/sec1background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 738px;
+        height: 300px;
+        box-shadow: 0px 10px 20px 0px #1111111A;
+    }
+
+    .section4 {
+        background-image: url(/assets/images/sec4background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 738px;
+        height: 300px;
+        box-shadow: 0px 10px 20px 0px #1111111A;
+        position: relative;
+        right: -20px;
+    }
+
+    .info1__h3 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        color: aliceblue;
+        bottom: -125px;
+    }
+
+    .info1__p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        bottom: -170px;
+        color: aliceblue;
+        right: -10px;
+    }
+
+    .info1__a {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        bottom: -185px;
+        right: -10px;
+        color: aliceblue;
+    }
+
+    .info1__button {
+        width: 126px;
+        height: 33px;
+        padding: 8 20 8 20;
+        gap: 10px;
+        border-radius: 25PX;
+        background-color: #FF7A00;
+        position: relative;
+        bottom: -180px;
+        right: -260px;
+        border: none;
+        color: aliceblue;
+    }
+
+    .section2 {
+        background-image: url(/assets/images/sec2background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 522px;
+        height: 290px;
+        box-shadow: 0px 10px 20px 0px #1111111A;
+    }
+
+    .info2__h3 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        bottom: -120px;
+        right: -15px;
+        color: white;
+
+    }
+
+    .info2__p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        bottom: -170px;
+        right: -10px;
+        color: aliceblue;
+    }
+
+    .info2__a {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: relative;
+        bottom: -5px;
+        right: -10px;
+        color: white;
+
+    }
+
+    .info2__button {
+        width: 126px;
+        height: 33px;
+        top: 1356.5px;
+        left: 672px;
+        padding: 8 20 8 20;
+        gap: 10px;
+        border-radius: 25PX;
+        background-color: #FF7A00;
+        margin-top: 180px;
+        margin-left: 140px;
+        color: aliceblue;
+        border: none;
+    }
+
+    .info1 {
+        flex-direction: column;
+
+        padding-left: 30px;
+    }
+
+    .section3 {
+        background-image: url(/assets/images/sec3background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 522px;
+        height: 290px;
+        box-shadow: 0px 10px 20px 0px #1111111A;
+        position: relative;
+        right: -20px;
+
+    }
+
+    .rooms__ro {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .read {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 304px;
+        height: 50px;
+        padding: 15 50 15 50;
+        gap: 10px;
+        border-radius: 25px;
+        background-color: #FF7A00;
+        color: aliceblue;
+        border: none;
+        align-items: center;
+        position: relative;
+        right: -560px;
+        bottom: -30px;
+
+    }
+
+    @media screen and (max-width:1000px) {
+        .section1 {
+            width: 215px;
+            height: 120px;
+
+        }
+
+        .section2 {
+            width: 215px;
+            height: 120px;
+
+        }
+
+        .section3 {
+            width: 215px;
+            height: 120px;
+
+        }
+
+        .section4 {
+            width: 215px;
+            height: 120px;
+
+        }
+
+        .info1__h3 {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 17px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: black;
+
+        }
+
+        .info1__a {
+            display: none;
+        }
+
+        .info2__button {
+            width: 157px;
+            height: 24px;
+            padding: 6 0 6 0;
+            gap: 10px;
+            border-radius: 16px;
+
+        }
+
+        .info2__p {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: black;
+        }
+.rooms__h2{
+    display: none;
+}
+        .info1__p {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: black;
+        }
+
+        .info1__button {
+            width: 157px;
+            height: 24px;
+            padding: 6 0 6 0;
+            gap: 10px;
+            border-radius: 16px;
+
+
+        }
+
+        .info1 {
+            width: 120px;
+        }
+
+        .card {
+           display: none;
+        }
+
+        .rooms__ro {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .read{
+            display: none;
+        }
+    }
+
+
+}

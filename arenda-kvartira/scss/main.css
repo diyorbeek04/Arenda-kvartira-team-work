@@ -1,3 +1,85 @@
+.form {
+  width: 301px;
+  height: 337px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.email {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.commet {
+  width: 256px;
+  height: 90px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.button {
+  width: 170px;
+  height: 41px;
+  border-radius: 15px;
+  background-color: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+  color: aliceblue;
+}
+
+.form {
+  width: 301px;
+  height: 337px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.email {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.commet {
+  width: 256px;
+  height: 90px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 15px;
+}
+
+.button {
+  width: 170px;
+  height: 41px;
+  border-radius: 15px;
+  background-color: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+  color: aliceblue;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,79 @@
+.form {
+    width: 380px;
+    height: 380px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-left:30px;
+    flex-direction: column;
+   margin-left: 450px;
+   margin-top: 150px;
+   align-items: center;
+    .h2 {
+        
+        padding-top: 25px;
+        padding-bottom: 5px;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2B7AF1;
+        margin-left: 10px;
+
+    }
+
+    .name {
+        width: 256px;
+        height: 35px;
+        border: 1px solid gray;
+        color: gray;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 15px;
+        padding-left: 10px;
+        margin-left: 33px;
+    }
+
+    .email {
+        width: 256px;
+        height: 35px;
+        border: 1px solid gray;
+        color: gray;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 33px;
+        
+    }
+
+    .commet {
+        width: 256px;
+        height: 90px;
+        border: 1px solid gray;
+        color: gray;
+
+        border-radius: 10px;
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-bottom: 40px;
+        margin-left: 33px;
+    }
+
+    .button {
+        width: 170px;
+        height: 41px;
+
+        border-radius: 10px;
+        background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+        border: none;
+        color: aliceblue;
+        margin-left: 45px;
+        margin-top: 25px;
+        text-align: center;
+        margin-left: 70px;
+
+
+    }
+
+}
