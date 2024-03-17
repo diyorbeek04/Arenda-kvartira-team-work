@@ -19,7 +19,7 @@ let Data = (arr) => {
         Clone.getElementById('card__item__button').addEventListener('click' , (e) => {
             e.preventDefault()
             console.log(e.target.value);
-            window.localStorage.setItem('flatId', button.value)
+            window.localStorage.setItem('flatId', e.target.value)
             window.location.href = 'all_flat.html'
         })
         Fragment.appendChild(Clone)

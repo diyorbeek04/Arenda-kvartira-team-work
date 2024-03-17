@@ -4,7 +4,6 @@ fetch(`http://localhost:8000/flatBlog/${window.localStorage.getItem('flatId')}`)
 let dataSection = document.getElementById("cards")
 let Fragment = document.createDocumentFragment()
 let Data = (arr) => {
-    console.log(arr);
         let Clone = templateFlat.content.cloneNode(true)
         Clone.getElementById('card__item--images').src = arr.flatImage
         Clone.getElementById('card__item--h2').textContent = arr.flatTitle
