@@ -57,7 +57,7 @@
         h1{
             width: 100%;
             padding-left: 50px;
-            padding-top: 250px;
+            padding-top: 200px;
             font-family: monospace;
             font-size: 50px;
             text-transform: capitalize;
@@ -75,14 +75,15 @@
                 border: 0px ; 
                 font-size: 20px;
             }
-            hr{
+            .logIn__button{
                 width: 80%;
-                height: 4px;
-                margin-top: -40px;
-                background: rgb(82,58,180);
-                background: linear-gradient(90deg, rgba(82,58,180,1) 0%, rgba(3,21,252,1) 38%, rgba(0,14,252,1) 61%, rgba(78,186,255,1) 100%);
+                padding: 10px;
+                color: #000;
+                outline: none;
+                border: 0px ; 
+                font-size: 20px;
+                cursor: pointer;
             }
-
         }
     }
 }

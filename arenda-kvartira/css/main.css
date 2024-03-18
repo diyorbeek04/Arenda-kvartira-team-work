@@ -263,229 +263,6 @@
   }
 }
 
-#logIn__Box {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#logIn__Box #logIn__Box--Title {
-  width: 50%;
-  height: 100%;
-  background-image: url(../../../assets/image/bgc3.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#logIn__Box #logIn__Box--Title #logIn__Box--logo {
-  width: 20%;
-  background-color: #fff;
-  padding: 20px;
-  margin: 50px;
-  border-radius: 20px;
-}
-#logIn__Box #logIn__Box--Title #logIn__Box--logo img {
-  width: 100%;
-}
-#logIn__Box #logIn__Box--Title h1 {
-  padding-top: 8%;
-  text-align: center;
-  margin: 0px auto;
-  color: #fff;
-  font-size: 80px;
-  font-family: monospace;
-  font-weight: 1000;
-}
-#logIn__Box #logIn__Box--Title h3 {
-  padding-top: 5%;
-  text-align: center;
-  margin: 0px auto;
-  color: #fff;
-  font-family: monospace;
-  font-size: 40px;
-}
-#logIn__Box #logIn__Box--Title p {
-  width: 300px;
-  text-align: end;
-  padding: 50px;
-  padding-top: 100px;
-  color: #fff;
-  font-family: monospace;
-  font-size: 20px;
-  font-weight: 600;
-  margin: auto 0 auto auto;
-}
-#logIn__Box #logIn__Box--form {
-  width: 50%;
-  height: 100%;
-}
-#logIn__Box #logIn__Box--form h1 {
-  width: 100%;
-  padding-left: 50px;
-  padding-top: 250px;
-  font-family: monospace;
-  font-size: 50px;
-  text-transform: capitalize;
-}
-#logIn__Box #logIn__Box--form form {
-  padding-left: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-#logIn__Box #logIn__Box--form form .SignIn {
-  width: 80%;
-  padding: 20px;
-  color: #000;
-  outline: none;
-  border: 0px;
-  font-size: 20px;
-}
-#logIn__Box #logIn__Box--form form hr {
-  width: 80%;
-  height: 4px;
-  margin-top: -40px;
-  background: rgb(82, 58, 180);
-  background: linear-gradient(90deg, rgb(82, 58, 180) 0%, rgb(3, 21, 252) 38%, rgb(0, 14, 252) 61%, rgb(78, 186, 255) 100%);
-}
-
-.form {
-  width: 380px;
-  height: 380px;
-  background-color: aliceblue;
-  border-radius: 15px;
-  padding-left: 30px;
-  flex-direction: column;
-  margin-left: 450px;
-  margin-top: 150px;
-  align-items: center;
-}
-.form .h2 {
-  padding-top: 25px;
-  padding-bottom: 5px;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #2B7AF1;
-  margin-left: 10px;
-}
-.form .name {
-  width: 256px;
-  height: 35px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  position: relative;
-  margin-top: 15px;
-  padding-left: 10px;
-  margin-left: 33px;
-}
-.form .email {
-  width: 256px;
-  height: 35px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  margin-top: 20px;
-  padding-left: 10px;
-  margin-left: 33px;
-}
-.form .commet {
-  width: 256px;
-  height: 90px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-bottom: 40px;
-  margin-left: 33px;
-}
-.form .button {
-  width: 170px;
-  height: 41px;
-  border-radius: 10px;
-  background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
-  border: none;
-  color: aliceblue;
-  margin-left: 45px;
-  margin-top: 25px;
-  text-align: center;
-  margin-left: 70px;
-}
-
-.form {
-  width: 380px;
-  height: 380px;
-  background-color: aliceblue;
-  border-radius: 15px;
-  padding-left: 30px;
-  flex-direction: column;
-  margin-left: 450px;
-  margin-top: 150px;
-  align-items: center;
-}
-.form .h2 {
-  padding-top: 25px;
-  padding-bottom: 5px;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #2B7AF1;
-  margin-left: 10px;
-}
-.form .name {
-  width: 256px;
-  height: 35px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  position: relative;
-  margin-top: 15px;
-  padding-left: 10px;
-  margin-left: 33px;
-}
-.form .email {
-  width: 256px;
-  height: 35px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  margin-top: 20px;
-  padding-left: 10px;
-  margin-left: 33px;
-}
-.form .commet {
-  width: 256px;
-  height: 90px;
-  border: 1px solid gray;
-  color: gray;
-  border-radius: 10px;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-bottom: 40px;
-  margin-left: 33px;
-}
-.form .button {
-  width: 170px;
-  height: 41px;
-  border-radius: 10px;
-  background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
-  border: none;
-  color: aliceblue;
-  margin-left: 45px;
-  margin-top: 25px;
-  text-align: center;
-  margin-left: 70px;
-}
-
 .admin {
   display: flex;
   justify-content: space-between;
@@ -820,6 +597,231 @@ form button {
   letter-spacing: 0em;
   text-align: center;
   color: white;
+}
+
+#logIn__Box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logIn__Box #logIn__Box--Title {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../../assets/image/bgc3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#logIn__Box #logIn__Box--Title #logIn__Box--logo {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+}
+#logIn__Box #logIn__Box--Title #logIn__Box--logo img {
+  width: 100%;
+}
+#logIn__Box #logIn__Box--Title h1 {
+  padding-top: 8%;
+  text-align: center;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 80px;
+  font-family: monospace;
+  font-weight: 1000;
+}
+#logIn__Box #logIn__Box--Title h3 {
+  padding-top: 5%;
+  text-align: center;
+  margin: 0px auto;
+  color: #fff;
+  font-family: monospace;
+  font-size: 40px;
+}
+#logIn__Box #logIn__Box--Title p {
+  width: 300px;
+  text-align: end;
+  padding: 50px;
+  padding-top: 100px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto 0 auto auto;
+}
+#logIn__Box #logIn__Box--form {
+  width: 50%;
+  height: 100%;
+}
+#logIn__Box #logIn__Box--form h1 {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 200px;
+  font-family: monospace;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+#logIn__Box #logIn__Box--form form {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#logIn__Box #logIn__Box--form form .SignIn {
+  width: 80%;
+  padding: 20px;
+  color: #000;
+  outline: none;
+  border: 0px;
+  font-size: 20px;
+}
+#logIn__Box #logIn__Box--form form .logIn__button {
+  width: 80%;
+  padding: 10px;
+  color: #000;
+  outline: none;
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form {
+  width: 380px;
+  height: 380px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding-left: 30px;
+  flex-direction: column;
+  margin-left: 450px;
+  margin-top: 150px;
+  align-items: center;
+}
+.form .h2 {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B7AF1;
+  margin-left: 10px;
+}
+.form .name {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 15px;
+  padding-left: 10px;
+  margin-left: 33px;
+}
+.form .email {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-left: 33px;
+}
+.form .commet {
+  width: 256px;
+  height: 90px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 33px;
+}
+.form .button {
+  width: 170px;
+  height: 41px;
+  border-radius: 10px;
+  background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+  border: none;
+  color: aliceblue;
+  margin-left: 45px;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.form {
+  width: 380px;
+  height: 380px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding-left: 30px;
+  flex-direction: column;
+  margin-left: 450px;
+  margin-top: 150px;
+  align-items: center;
+}
+.form .h2 {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2B7AF1;
+  margin-left: 10px;
+}
+.form .name {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 15px;
+  padding-left: 10px;
+  margin-left: 33px;
+}
+.form .email {
+  width: 256px;
+  height: 35px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-left: 33px;
+}
+.form .commet {
+  width: 256px;
+  height: 90px;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 33px;
+}
+.form .button {
+  width: 170px;
+  height: 41px;
+  border-radius: 10px;
+  background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+  border: none;
+  color: aliceblue;
+  margin-left: 45px;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 70px;
 }
 
 @font-face {

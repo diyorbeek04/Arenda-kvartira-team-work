@@ -1,6 +1,6 @@
-if (!window.localStorage.getItem('UserData')) {
-    window.location.href = '../login.html'
-}
+// if (!window.localStorage.getItem('UserData')) {
+//     window.location.href = '../login.html'
+// }
 fetch('http://localhost:8000/flatBlog')
 .then(res => res.json())
 .then(data => flatBlog(data))
