@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="requestModal" id="request">
+            <div class="requestModalHead">
+                <h1 class="requestModalHead__h1">Requests</h1>
+                <button class="requestModalHead__button">Add Users</button>
+            </div>
+            <div class="aboutTable">
+                <ul class="aboutTable__ul">
+                    <li class="aboutTable__ul--li">Sr No</li>
+                    <li class="aboutTable__ul--li">Name</li>
+                    <li class="aboutTable__ul--li">Phone number</li>
+                    <li class="aboutTable__ul--li">Action</li>
+                </ul>
+            </div>
+                <div class="callback" id="callback"></div>
+                <template id="templateCallback">
+                    <div class="requestCard" id="card">
+                        <p class="callbackId" id="callbackId"></p>
+                        <p class="callbackP" id="callbackP"></p>
+                        <span class="callbackSpan" id="callbackSpan"></span>
+                        <button class="requestCard__button" id="callbackDelete">Delete</button>
+                    </div>
+                </template>
+        </div>
+    </div>
+    <script src="./js/admin.js"></script>
+</body>
+</html>

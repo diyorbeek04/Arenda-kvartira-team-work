@@ -1,0 +1,85 @@
+.requestModal{
+    width: 1078.66px;
+    height: 788.37px;
+    top: 145.03px;
+    left: 355.03px;
+    border-radius: 12px;
+    background-color: #FFFDFD;
+    border: 1px solid black;
+}
+.requestModalHead{
+    display: flex;
+    align-items: center;
+}
+.requestModalHead__h1{
+    width: 158px;
+    height: 33px;
+    top: 170px;
+    left: 388px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-left: 33px;
+    margin-right: 672px;
+
+}
+.requestModalHead__button{
+    width: 140.2px;
+    height: 39.15px;
+    top: 161px;
+    left: 1218px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 35px;
+    border: none;
+}
+.aboutTable{
+    width: 1077.61px;
+    height: 54.3px;
+    background-color: #2A3042;
+    align-items: center;
+}
+.aboutTable__ul{
+    display: flex;
+}
+.aboutTable__ul--li{
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-left: 150px;
+    color: #FEFEFE;
+}
+.requestCard__button{
+    width: 87.2px;
+    height: 27.15px;
+    top: 299.57px;
+    left: 1278.61px;
+    border-radius: 35px   ;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin-right: 120.805px;
+}
+.requestCard{
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E1E0E2;
+}
+.callbackId{
+    margin-left: 120.805px;
+}

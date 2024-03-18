@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KomilPrivateZone</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button id="orderCall">Заказать звонок</button>
+       <div class="overlay" id="overlay">
+        <div class="modal" id="requestModal">
+            <button id="requestModalExit" class="modal__exitButton">&times;</button>
+            <h1 class="modal__h1">Заказать звонок</h1>
+            <p class="modal__p">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+            <input type="text" class="modal__input" id="ism" placeholder="Имя" required>
+            <input type="number" class="modal__input" id="raqam" placeholder="Телефон" required>
+            <button class="modal__button" id="requestModalButton" type="submit">Отправить</button>
+        </div>
+       </div>
+    </div>
+</body>
+<script src="./js/komil.js"></script>
+</html>
