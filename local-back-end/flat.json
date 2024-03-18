@@ -1,0 +1,75 @@
+{
+  "flatBlog": [
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Однокомнатная квартира",
+      "flatDescription": "СДАМ 1- ую квартиру улучшенной планировки с лоджией, есть всё необходимое спальные места кровать 2...",
+      "flatPrice": "1 200 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Юбилейная 108",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Однокомнатная квартира",
+      "flatDescription": "СДАМ 1 КВАРТИРУ есть все необходимое для проживания холодильник, мик.печь,ст.машина выписываем...",
+      "flatPrice": "1 000 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Юбилейная 108",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Однокомнатная квартира",
+      "flatDescription": "Сдам 1ую квартиру ул. пл. с балконом есть всё необходимое для проживания Выписываем документы строгой...",
+      "flatPrice": "1 200 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Юбилейная 108",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Однокомнатная квартира",
+      "flatDescription": "Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить...",
+      "flatPrice": "1 200 ₽ за сутки  ",
+      "flatLocation": "Березники, ул. Юбилейная 108",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Двухкомнатная квартира",
+      "flatDescription": "СДАМ 2 КОМНАТНУЮ КВАРТИРУ есть балкон всё необходимое для комфортного проживания, холодильник, мик.печь...",
+      "flatPrice": "1 500 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Красноборова, 11",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Трёхкомнатная квартира",
+      "flatDescription": "СДАМ 3 КОМНАТНУЮ КВАРТИРУ гостям города , бригаде , есть всё необходимое для проживания до 7 ми спальных мест...",
+      "flatPrice": "1 800 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Свердлова, 134",
+      "flatButton": "Подробнее"
+    },
+    {
+      "id": 1,
+      "flatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/zebhg02dya7e2-UZ/image;s=2000x1333",
+      "flatTitle": "Трёхкомнатная квартира",
+      "flatDescription": "СДАМ. 3 КОМНАТНУЮ КВАРТИРУ, для гостей города. в квартире имеется все необходимое для проживания на сутки...",
+      "flatPrice": "1 800 ₽ за сутки ",
+      "flatLocation": "Березники, ул. Мира, 112",
+      "flatButton": "Подробнее"
+    }
+  ],
+  "from": [
+    {
+      "id": 1,
+      "ism": "Komil",
+      "email": "Komil@gmail.com",
+      "sharx": "Komil === BOT"
+    } 
+  ]
+}

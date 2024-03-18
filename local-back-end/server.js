@@ -1,6 +1,6 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router('arenda_kvartira.json')
+const router = jsonServer.router('flat.json')
 
 const middlewares = jsonServer.defaults()
 
