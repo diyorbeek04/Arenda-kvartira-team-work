@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>Log in</title>
 </head>
@@ -17,10 +17,10 @@
         <div id="logIn__Box--form">
             <h1>Sign in</h1>
             <form>
-                <input class="SignIn" type="email" required placeholder="Enter Email Adress">
-                <hr>
-                <input class="SignIn" type="password" required placeholder="Enter Password ">
-                <hr>
+                <input id="emailLogIn" class="SignIn" type="email" required placeholder="Enter Email Adress">
+                <input id="passwordLogIn" class="SignIn" type="password" required placeholder="Enter Password ">
+                <p style="display: none; color: red; font-size: 12px;" id="error">You have entered incorrect information</p>
+                <button class="logIn__button" id="EnterAdmin" type="submit">Enter</button>
             </form>
         </div>
     </div>
