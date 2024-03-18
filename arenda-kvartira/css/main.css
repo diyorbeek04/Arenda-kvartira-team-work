@@ -1,5 +1,6 @@
 .container {
   max-width: 1160px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -18,13 +19,13 @@
 .container .main__companent .main__companent--h4 {
   font-weight: 500;
   font-size: 16px;
-  width: 30%;
+  width: 35%;
   font-family: "Montserrat 500";
 }
 .container .main__companent .main__companent--item {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container .main__companent .main__companent--item .main__companent--item--card {
   margin-left: 10px;
@@ -57,6 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card .card__item {
   padding: 10px;
@@ -112,8 +114,27 @@
   font-family: "Montserrat 400";
 }
 
+.main__companent {
+  width: 100%;
+}
+
+@media only screen and (max-with: 768px) {
+  .main__companent--item {
+    margin-left: 20px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #main__companent--item {
+    width: 200px;
+    margin-left: 180px;
+    margin-top: -40px;
+    display: flex;
+  }
+}
 .container {
   max-width: 1160px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -127,17 +148,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container .main__companent .main__companent--h4 {
   font-weight: 500;
   font-size: 18px;
-  width: 30%;
+  width: 350px;
   font-family: "Montserrat 500";
 }
 .container .main__companent .main__companent--item {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container .main__companent .main__companent--item .main__companent--item--card {
   margin-left: 10px;
@@ -172,7 +194,7 @@
 }
 
 .card1 {
-  width: 30%;
+  width: 350px;
   margin-bottom: 70px;
 }
 .card1 .card__item {
@@ -229,6 +251,14 @@
   font-family: "Montserrat 400";
 }
 
+@media only screen and (max-width: 320px) {
+  #main__companent--item {
+    width: 200px;
+    margin-left: 180px;
+    margin-top: -40px;
+    display: flex;
+  }
+}
 @font-face {
   font-family: "Montserrat 400";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
