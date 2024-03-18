@@ -1,3 +1,73 @@
+.kontakt__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.kontakt__cards .kontakt__h1 {
+  font-size: 32px;
+  color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
+}
+.kontakt__cards .kontakt__cards--left--item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item1 {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .kontakt__cards--left--item2 {
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .location {
+  border-radius: 15px;
+}
+
 .container {
   max-width: 1160px;
   width: 100%;
@@ -58,11 +128,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .card .card__item {
   padding: 10px;
-  margin-left: 30px;
 }
 .card #card__item--images {
   border-radius: 10px;
@@ -119,9 +187,17 @@
 }
 
 @media only screen and (max-with: 768px) {
+  .card {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   .main__companent--item {
     margin-left: 20px;
     width: 100px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -185,6 +261,76 @@
   border: none;
 }
 
+.kontakt__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.kontakt__cards .kontakt__h1 {
+  font-size: 32px;
+  color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
+}
+.kontakt__cards .kontakt__cards--left--item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item1 {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .kontakt__cards--left--item2 {
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .location {
+  border-radius: 15px;
+}
+
 #cards {
   margin-top: 50px;
   display: flex;
@@ -197,12 +343,13 @@
   width: 350px;
   margin-bottom: 70px;
 }
-.card1 .card__item {
-  padding: 10px;
+.card1 .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .card1 #card__item--images {
   border-radius: 10px;
-  width: 100%;
   height: 300px;
 }
 .card1 #card__item--h2 {
@@ -251,6 +398,19 @@
   font-family: "Montserrat 400";
 }
 
+@media only screen and (max-width: 768px) {
+  .card {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card #card__item--images {
+    border-radius: 10px;
+    height: 300px;
+  }
+}
 @media only screen and (max-width: 320px) {
   #main__companent--item {
     width: 200px;
@@ -259,6 +419,76 @@
     display: flex;
   }
 }
+.kontakt__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.kontakt__cards .kontakt__h1 {
+  font-size: 32px;
+  color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
+}
+.kontakt__cards .kontakt__cards--left--item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+}
+.kontakt__cards .kontakt__cards--left--item1 {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .kontakt__cards--left--item2 {
+  display: flex;
+  align-items: center;
+}
+.kontakt__cards .kontakt__cards--h5 {
+  font-family: "Montserrat 400";
+  color: #484848;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.kontakt__cards .kontakt__cards--button {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+  margin-left: 150px;
+}
+.kontakt__cards .location {
+  border-radius: 15px;
+}
+
 @font-face {
   font-family: "Montserrat 400";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);

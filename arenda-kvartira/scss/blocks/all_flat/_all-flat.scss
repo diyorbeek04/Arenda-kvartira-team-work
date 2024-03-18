@@ -63,10 +63,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-flex-wrap: wrap;
     .card__item {
         padding: 10px;
-        margin-left: 30px;
     }
 
     #card__item--images {
@@ -131,17 +129,24 @@ flex-wrap: wrap;
     width: 100%;
 }
 @media only screen and (max-with:768px){
+    .card {
+        margin-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     .main__companent--item{
         margin-left: 20px;
         width: 100px;
+        text-align: center;
     }
 }
 @media only screen and (max-width:320px) {
     #main__companent--item{
         width: 200px;
-margin-left: 180px;
-margin-top: -40px;
-display: flex;
-
+         margin-left: 180px;
+         margin-top: -40px;
+         display: flex;
     }
 }

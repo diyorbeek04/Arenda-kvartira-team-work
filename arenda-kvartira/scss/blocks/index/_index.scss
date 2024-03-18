@@ -1,0 +1,74 @@
+
+.kontakt__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    .kontakt__h1 {
+        font-size: 32px;
+        color: rgb(73, 131, 255);
+        font-family: "Montserrat 600";
+    }
+    .kontakt__cards--left--item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .kontakt__cards--h5 {
+            font-family: "Montserrat 400";
+            color: #484848;
+            margin-left: 20px;
+        }
+    }
+    .kontakt__cards--left--item1 {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .kontakt__cards--h5 {
+        font-family: "Montserrat 400";
+        color: #484848;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    .kontakt__cards--button{
+        width: 150px;
+        height: 35px;
+        margin-top: 20px;
+        color: white;
+        background-color: #FF7A00;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        font-family: "Montserrat 400";
+        margin-left: 150px;
+    }
+    .kontakt__cards--left--item2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .kontakt__cards--h5 {
+        font-family: "Montserrat 400";
+        color: #484848;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    .kontakt__cards--button{
+        width: 150px;
+        height: 35px;
+        margin-top: 20px;
+        color: white;
+        background-color: #FF7A00;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        font-family: "Montserrat 400";
+        margin-left: 150px;
+    }
+    .location{
+        border-radius: 15px;
+    }
+}
+
